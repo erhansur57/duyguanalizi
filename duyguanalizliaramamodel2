@@ -22,12 +22,12 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "11d26d74-a855-488b-abe9-881f21eceb5e",
+   "id": "1",
    "metadata": {},
    "outputs": [],
    "source": [
-    "credential = AzureKeyCredential(\"2784725d100a4a5585aaae206c2666b4\")\n",
-    "text_analytics_client = TextAnalyticsClient(endpoint=\"https://azurestudentssentiment.cognitiveservices.azure.com/\", credential=credential)\n",
+    "credential = AzureKeyCredential(\"\")\n",
+    "text_analytics_client = TextAnalyticsClient(endpoint=\"/\", credential=credential)\n",
     "endpoint=\"https://azurestudentssentiment.cognitiveservices.azure.com/\""
    ]
   },
