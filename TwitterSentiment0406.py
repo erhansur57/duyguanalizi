@@ -10,11 +10,11 @@ from azure.core.credentials import AzureKeyCredential
 from PIL import Image, ImageTk  # PIL kütüphanesi
 
 # Twitter API ayarları
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAB8nuAEAAAAA0SIUw31%2BiEPiWcqfiS0cGN6DQqo%3DlQtdNXTu0VQteUFRFvbAhZWs29W6EbdnMsivKOvBvFzn12Zpqa'
+BEARER_TOKEN = ''
 
 # Azure Sentiment Analysis ayarları
-AZURE_ENDPOINT = "https://twitterduyguanalizi.cognitiveservices.azure.com/"
-AZURE_KEY = "d7a091ffe847465a8cc608efb3298f73"
+AZURE_ENDPOINT = ""
+AZURE_KEY = ""
 
 search_url = "https://api.twitter.com/2/tweets/search/recent"
 
